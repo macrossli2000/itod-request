@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://160.95.98.58:3000/itoadmin/itod-request.git"
+    "url": "https://github.com/macrossli2000/itod-request.git"
   },
   "keywords": [
     "itod",
@@ -29,11 +29,11 @@
       "url": "http://www.opensource.org/licenses/MIT"
     }
   ],
-  "url": "http://dc7-openshift-git-server1:3000/itoadmin/itod-request/src/master/LICENSE",
+  "url": "https://github.com/macrossli2000/itod-request/blob/master/LICENSE",
   "bugs": {
     "url": "https://github.com/garora/number2text/issues"
   },
-  "homepage": "http://dc7-openshift-git-server1:3000/itoadmin/itod-request",
+  "homepage": "https://github.com/macrossli2000/itod-request",
   "devDependencies": {
     "chai": "^2.3.0",
     "coveralls": "^2.11.2",
