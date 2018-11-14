@@ -1,0 +1,45 @@
+{
+  "name": "itod-request",
+  "version": "1.0.0",
+  "description": "Provides create request function for ITOD",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "test-cov": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --dir ./reports/coverage -- -R spec",
+    "coveralls": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --dir ./reports/coveralls/coverage --report lcovonly -- -R spec && cat ./reports/coveralls/coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./reports/coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://160.95.98.58:3000/itoadmin/itod-request.git"
+  },
+  "keywords": [
+    "itod",
+    "request"
+  ],
+  "author": "ITOD",
+  "contributors": [
+    {
+      "name": "HO IT&HI ITOD Support",
+      "email": "hoititodsup@ho.ha.org.hk"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "url": "http://dc7-openshift-git-server1:3000/itoadmin/itod-request/src/master/LICENSE",
+  "bugs": {
+    "url": "https://github.com/garora/number2text/issues"
+  },
+  "homepage": "http://dc7-openshift-git-server1:3000/itoadmin/itod-request",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.13",
+    "jshint": "^2.6.3",
+    "jshint-stylish": "^1.0.1",
+    "mocha": "^2.5.3"
+  }
+}
